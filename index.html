@@ -8,8 +8,12 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"895a2484cce8a64409ea549eb","lid":"653a917009"}) })</script>
+    <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" type="text/javascript" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script>// <![CDATA[
 
+function showMailingPopUp() { require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"895a2484cce8a64409ea549eb","lid":"653a917009"}) }) document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC"; }; document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+
+// ]]></script>
     <!-- Favicons 
     <link rel="shortcut icon" href="assets/favicon/favicon.ico">
     <link rel="apple-touch-icon" href="assets/favicon/apple-icon-57x57.png">
@@ -66,6 +70,8 @@
         <!-- page title & breadcrumbs end -->
 
         <!--schedule-area start-->
+
+        <button id=”open-popup”>Subscribe to our mailing list</button>
               <div class="schedule-area bg2 parallax pad90">
             <div class="container">
                 <div class="row">
