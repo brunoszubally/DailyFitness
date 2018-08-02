@@ -65,6 +65,15 @@ Author Email: ithemeslab@gmail.com */
   border: none;
   background: url(../images/up.png) no-repeat center center; }
 
+.nap {
+  color: #ffffff;
+  font-size: 20px;
+  font-style: bold;
+  line-height: 1.6em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 body {
   font-family: "Roboto Condensed", sans-serif;
   color: #ffffff;
