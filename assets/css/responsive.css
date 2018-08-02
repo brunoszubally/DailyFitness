@@ -287,6 +287,35 @@
       .schedule-area .tab-content .tab-pane .schdl-box p {
         font-size: 11px; }
 
+        .schedule-area .tab-content .tab-pane .schdl-boxuj {
+      padding: 20px 10px;
+      width: 120px; }
+      .schedule-area .tab-content .tab-pane .schdl-boxuj h5 {
+        font-size: 16px;
+        margin-bottom: 0; }
+      .schedule-area .tab-content .tab-pane .schdl-boxuj p {
+        font-size: 11px; }
+
+
+        .schedule-area .tab-content .tab-pane .schdl-boxhelyettesites {
+      padding: 20px 10px;
+      width: 120px; }
+      .schedule-area .tab-content .tab-pane .schdl-boxhelyettesites  h5 {
+        font-size: 16px;
+        margin-bottom: 0; }
+      .schedule-area .tab-content .tab-pane .schdl-boxhelyettesites  p {
+        font-size: 11px; }
+
+
+        .schedule-area .tab-content .tab-pane .schdl-boxelmarad {
+      padding: 20px 10px;
+      width: 120px; }
+      .schedule-area .tab-content .tab-pane .schdl-boxelmarad  h5 {
+        font-size: 16px;
+        margin-bottom: 0; }
+      .schedule-area .tab-content .tab-pane .schdl-boxelmarad  p {
+        font-size: 11px; }
+
   .schedule-area2 .schdl-tab-area2.nav .nav-item .nav-link {
     padding: 10px 0px;
     font-size: 15px; }
