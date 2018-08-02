@@ -474,20 +474,16 @@
 
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 
-<script type="text/javascript">
 
+<script>
 function showMailingPopUp() {
-    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"895a2484cce8a64409ea549eb","lid":"653a917009"})})
-    document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";                  
+    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"895a2484cce8a64409ea549eb","lid":"653a917009"}) })
+    document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
 };
-
-$(function() {
-    $(".open-popup").on('click', function() { 
-        showMailingPopUp();
-    });
-});
-
+document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
 </script>
+
+
 </body>
 
 
