@@ -65,7 +65,11 @@ Author Email: ithemeslab@gmail.com */
   border: none;
   background: url(../images/up.png) no-repeat center center; }
 
+.sanyi {
+ text-align: center;
+ margin-bottom: 20px;
 
+  }
 
 body {
   font-family: "Roboto Condensed", sans-serif;
