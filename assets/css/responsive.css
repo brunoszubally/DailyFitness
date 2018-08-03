@@ -294,8 +294,10 @@
     .schedule-area .schdl-tab-area li a {
       font-size: 14px;
       padding: 6px 5px; }
+
   .schedule-area .tab-content {
     width: 80%; }
+
     .schedule-area .tab-content .tab-pane .schdl-box {
       padding: 20px 10px;
       width: 120px; 
@@ -309,7 +311,7 @@
         .schedule-area .tab-content .tab-pane .schdl-boxuj {
       padding: 20px 10px;
       width: 120px; 
-    margin-left: 20%;}}
+    margin-left: 20%;}
       .schedule-area .tab-content .tab-pane .schdl-boxuj h5 {
         font-size: 16px;
         margin-bottom: 0; }
