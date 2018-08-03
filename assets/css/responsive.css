@@ -332,7 +332,8 @@
 
         .schedule-area .tab-content .tab-pane .schdl-boxelmarad {
       padding: 20px 10px;
-      width: 120px; }
+      width: 120px; 
+      margin-left: 20%;}
       .schedule-area .tab-content .tab-pane .schdl-boxelmarad  h5 {
         font-size: 16px;
         margin-bottom: 0; }
