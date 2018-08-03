@@ -298,7 +298,8 @@
     width: 80%; }
     .schedule-area .tab-content .tab-pane .schdl-box {
       padding: 20px 10px;
-      width: 120px; }
+      width: 120px; 
+      margin-left: 20%;}
       .schedule-area .tab-content .tab-pane .schdl-box h5 {
         font-size: 16px;
         margin-bottom: 0; }
@@ -307,7 +308,8 @@
 
         .schedule-area .tab-content .tab-pane .schdl-boxuj {
       padding: 20px 10px;
-      width: 120px; }
+      width: 120px; 
+    margin-left: 20%;}}
       .schedule-area .tab-content .tab-pane .schdl-boxuj h5 {
         font-size: 16px;
         margin-bottom: 0; }
@@ -317,7 +319,8 @@
 
         .schedule-area .tab-content .tab-pane .schdl-boxhelyettesites {
       padding: 20px 10px;
-      width: 120px; }
+      width: 120px; 
+      margin-left: 20%;}
       .schedule-area .tab-content .tab-pane .schdl-boxhelyettesites  h5 {
         font-size: 16px;
         margin-bottom: 0; }
